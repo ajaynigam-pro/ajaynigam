@@ -19,7 +19,7 @@ function Copyright() {
       <Button color="inherit" onClick={()=>{
         console.log('I am Here, Ajay Nigam')
       }}>
-        Ajay Nigam
+        Ajay Nigam Pro
       </Button>{' '}
       {new Date().getFullYear()}.
     </Typography>

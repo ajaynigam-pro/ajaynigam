@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ajaynigam/static/js/main.db116870.js",
+    "main.js": "/ajaynigam/static/js/main.c464dd8c.js",
     "index.html": "/ajaynigam/index.html",
-    "main.db116870.js.map": "/ajaynigam/static/js/main.db116870.js.map"
+    "main.c464dd8c.js.map": "/ajaynigam/static/js/main.c464dd8c.js.map"
   },
   "entrypoints": [
-    "static/js/main.db116870.js"
+    "static/js/main.c464dd8c.js"
   ]
 }

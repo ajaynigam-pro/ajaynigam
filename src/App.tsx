@@ -4,7 +4,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import ProTip from './ProTip';
-import { Button } from '@mui/material';
+import { Button, Grid } from '@mui/material';
+import Profile from './Profile';
 
 function Copyright() {
   return (
@@ -28,13 +29,17 @@ function Copyright() {
 
 export default function App() {
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" sx={{ mb: 2, textAlign:'center' }}>
-          Ajay Nigam
-        </Typography>
-        <ProTip />
-        <Copyright />
+    <Container maxWidth="lg">
+      <Box sx={{ flexGrow: 1 }}>
+        <Profile />
+        {/* <Grid container spacing={2}>
+          <Grid item xs={6} md={4}>
+            <Box>xs=6 md=4</Box>
+          </Grid>
+          <Grid item xs={6} md={8}>
+            <Box>xs=6 md=8</Box>
+          </Grid>
+        </Grid> */}
       </Box>
     </Container>
   );

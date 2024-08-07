@@ -1,5 +1,6 @@
 import { Box, Card, CardActionArea, CardContent, CardMedia, Grid, TextField, Typography } from "@mui/material";
 import React from "react";
+import BottomMenu from "./BottomMenu";
 
 const LeftProfile = () => {
   return (
@@ -8,21 +9,23 @@ const LeftProfile = () => {
             <CardActionArea>
                 <CardMedia
                 component="img"
-                height="140"
-                image="/img/profile.jpg"
+                image="/ajaynigam/img/profile.jpg"
                 alt="Ajay Nigam"
+                sx={{height:'100%'}}
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                    Lizard
+                    Ajay Nigam
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica
+                Experienced full-stack web developer skilled in React and PHP, capable of building robust and responsive web applications. Proficient in front-end development with React, as well as back-end development using PHP and related frameworks.
                 </Typography>
                 </CardContent>
             </CardActionArea>
         </Card>
+        <Box>
+            <BottomMenu />
+        </Box>
     </Box>
   );
 };

@@ -5,11 +5,11 @@ import BottomMenu from "./BottomMenu";
 const LeftProfile = () => {
   return (
     <Box>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card>
             <CardActionArea>
                 <CardMedia
                 component="img"
-                image="/ajaynigam/img/profile.jpg"
+                image="/img/profile.jpg"
                 alt="Ajay Nigam"
                 sx={{height:'100%'}}
                 />

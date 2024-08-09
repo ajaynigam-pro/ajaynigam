@@ -61,8 +61,8 @@ export default function ProfileTabs() {
       <Tabs
         value={value}
         onChange={handleChange}
-        variant="scrollable"
         scrollButtons
+        variant="fullWidth"
         aria-label="visible arrows tabs example"
         sx={{
           [`& .${tabsClasses.scrollButtons}`]: {

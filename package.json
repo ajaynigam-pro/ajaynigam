@@ -2,7 +2,7 @@
   "name": "ajaynigam",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://ajaynigam-pro.github.io/ajaynigam",
+  "homepage": "http://ajaynigam-pro.github.io",
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
